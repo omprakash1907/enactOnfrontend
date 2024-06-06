@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     try {
-      fetch('http://localhost:3000/')
+      fetch('https://enacton-backend.vercel.app/')
         .then((res) => res.json())
         .then((data) => {
           setProduct(data)
